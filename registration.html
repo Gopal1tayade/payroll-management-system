@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <form action="register.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="datails">First Name</span>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Enter your first Name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="datails">Midal Name</span>
+            <input
+              type="text"
+              name="midalname"
+              placeholder="Enter your midal name "
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="datails">Last Name</span>
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Enter your Last Name"
+              required
+            />
+            <!-- <div class="input-box">
+              <span class="datails">Roll</span>
+              <input
+                type="text"
+                name="roll"
+                placeholder="Enter your roll"
+                required
+              />
+              <div class="input-box">
+                <span class="datails">Date of Joining</span>
+                <input
+                  type="date"
+                  name="date"
+                  placeholder="Enter your Date of Joining"
+                  required
+                /> -->
+          </div>
+          <div class="input-box">
+            <span class="datails">Contact Number</span>
+            <input
+              type="number"
+              name="number"
+              placeholder="Enter your Number"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="datails">Email</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your E-mail"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="datails">Username</span>
+            <input
+              type="text"
+              name="uname"
+              placeholder="Create your username"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="datails">Password</span>
+            <input
+              type="password"
+              name="pass"
+              placeholder="Enter password"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="datails">Confirm Password</span>
+            <input
+              type="password"
+              name="cpass"
+              placeholder="confirm password"
+              required
+            />
+          </div>
+        </div>
+        <div class="gender-detail">
+          <input type="radio" name="gender" id="dot-1" />
+          <input type="radio" name="gender" id="dot-2" />
+          <input type="radio" name="gender" id="dot-3" />
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Other</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" name="submitData" value="Register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

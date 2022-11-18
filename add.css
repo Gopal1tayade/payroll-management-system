@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    outline: 0; 
+    appearance: none;
+    /* border: 0; */
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(-135deg,rgb(201, 248, 217) , rgb(150, 195, 73));
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 500px;
+  width: 100%;
+  background: linear-gradient(135deg,rgb(78, 206, 211),rgb(205, 82, 212));
+  padding: 25px 30px;
+  border-radius: 10px;
+}
+.container form .hedding{
+    margin: 0;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    position: relative;
+}
+.container form .show{
+    margin: 10px;
+    padding: 5px;
+    display: inline-flex;
+    gap: 2rem;
+    }
+    .container form .show .lable{
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+    .container form .show .take{
+        display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    }
+    .container form .show .take input{
+        height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+   border: 1px solid #ccc;
+   padding-left: 16px;
+   font-size: 16px;
+   border-bottom-width: 2px;
+   transition: all 0.3s ease;
+   overflow: hidden;
+}
+.container form .show .take textarea{
+    position: absolute;
+    height: 40px;
+    width: 20%;
+    border-radius: 5px
+    
+}
+.container form .button input{
+    margin: 20px;
+    margin-bottom: 0;
+  height: 40px;
+   width: 60%;
+   border-radius: 6px;
+   font-size: 18px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
